@@ -20,3 +20,5 @@ $this->create('user_ldap_ajax_testConfiguration', 'ajax/testConfiguration.php')
 	->actionInclude('user_ldap/ajax/testConfiguration.php');
 $this->create('user_ldap_ajax_wizard', 'ajax/wizard.php')
 	->actionInclude('user_ldap/ajax/wizard.php');
+$this->create('user_ldap_deletedUsers', 'deletedUsers.php')
+	->actionInclude('user_ldap/deletedUsers.php');
